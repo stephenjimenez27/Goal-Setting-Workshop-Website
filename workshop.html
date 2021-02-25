@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAL SETTING</title>
+
+    <!------------ GOOGLE FONTS ------------>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
+        rel="stylesheet">
+
+    <!------------ FONT AWESOME ------------>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <!------------ CUSTOM STYLE SHEET ------------>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <!------------ JAVASCRIPT ------------>
+    <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
+</head>
+
+<body>
+    
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html#home">GOAL SETTING</a></div>
+      <input type="radio" name="slide" id="menu-btn">
+      <input type="radio" name="slide" id="cancel-btn">
+      <ul class="nav-links">
+        <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li>
+          <a href="#" class="desktop-item">Dropdown Menu</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="index.html#registration">REGISTRATION</a></li>
+            <li><a href="index.html#contact_us">CONTACT US</a></li>
+            <li><a href="index.html#our_team">OUR TEAM</a></li>
+            <li><a href="index.html#our_services">OUR SERVICES</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Mega Menu</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="goalsetting3.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop.html#trivia_1">Trivia 1</a></li>
+                  <li><a href="workshop.html#summary">Summary</a></li>
+                  <li><a href="workshop.html#goals">goals</a></li>
+                  <li><a href="workshop.html#participants">participants</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop.html#methodology_1">Methodology 1</a></li>
+                  <li><a href="workshop.html#methodology_2">Methodology 2</a></li>
+                  <li><a href="workshop.html#findings">Findings</a></li>
+                  <li><a href="workshop2.html#trivia_2">Trivia 2</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop2.html#goal_setting">Goal Setting</a></li>
+                  <li><a href="workshop2.html#purpose">Purpose</a></li>
+                  <li><a href="workshop2.html#goal">Goal</a></li>
+                  <li><a href="workshop2.html#smart_criteria">Smart Criteria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#feedback">Feedback</a></li>
+        <li><a href="promotional.html">Promotion</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  
+    <div class="slider" id="home">
+        <div class="slides">
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>GOAL SETTING</h1>
+                    <p>A BRIGHTER FUTURE AHEAD OF US</p>
+                    <li><a href="index.html#about">LEARN MORE</a></li>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>USABILITY TESTING REPORT</h1>
+                    <p>TO KNOW MORE ABOUT THE RESULT OF OUR WORKSHOP</p>
+                    <li><a href="workshop.html#trivia_1">LEARN MORE</a></li>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>WORKSHOP</h1>
+                    <p>THIS WORKSHOP IS FOR PEOPLE WHO WANT TO LEARN AND ENHANCE THEIR ABILITIES TO SET THEIR GOALS</p>
+                    <li><a href="workshop2.html#trivia_2">LEARN MORE</a></li>
+                </div>
+            </div>
+        </div>
+
+        <button class="arrows prev" onclick="plusslide(-1)">
+            <span><i class="fas fa-angle-left"></i></span>
+        </button>
+        <button class="arrows next" onclick="plusslide(1)">
+            <span><i class="fas fa-angle-right"></i></span>
+        </button>
+
+        <div class="dots">
+          <center>
+            <span onclick="currentslide(1)"></span>
+            <span onclick="currentslide(2)"></span>
+            <span onclick="currentslide(3)"></span>
+          </center>
+        </div>
+    </div>
+    
+  <script src="script.js"></script>
+    
+  <section id="trivia_1">
+    <div>
+      <h2>GOAL SETTING</h2>
+      <p style="text-align: justify;">Goal setting involves the development of an action plan designed to motivate and guide a person or group toward a goal. Goal setting can be guided by goal-setting criteria (or rules) such as SMART criteria. Goal setting is a major component of personal-development and management literature.</p>
+        <a href="https://en.wikipedia.org/wiki/Goal_setting">Read More</a>
+    </div>
+    <img src="img.jpg">
+  </section>
+  
+  <section id="summary">
+    <div>
+      <h2>SUMMARY</h2>
+      <p style="text-align: justify;">Our dry-run documentation went well and we were able to present our workshop via zoom meeting and most of the participants enjoyed our workshop, they even said that our topic helped them to realize the importance of goal setting and having a goal. That's also the day we conducted our usability test and most of the participants are looking forward that someday our workshop will improve for the better. Majority of the audience as well are expecting that the flow of the speakers and how the presenter discuss the topic will improve, they also expect that there will be more activities and the audience will participate more.</p>
+    </div>
+  </section>
+  
+  <section id="goals">
+    <div>
+      <h2>GOALS</h2>
+      <p style="text-align: justify;">The reason why we conducted usability test after we perform our workshop is to know the reactions of the audience and distinguish the improvements that we are going to take in order to make our workshop better, and lastly is to identify if they enjoyed participating in our workshop and the things that they have learned.</p>
+    </div>
+  </section>
+  
+   <section id="participants">
+    <div>
+  <h2>Participants</h2>
+  <p></p>
+  <table class="part">
+  <tr id="header-participants">
+    <th>PARTICIPANTS</th>
+    <th>AGE</th>
+    <th>BIRTHDATE</th>
+    <th>OCCUPATION</th>
+    <th>DATE OF REGISTRATION</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>15</td>
+    <td>09/24/05</td>
+    <td>Student</td>
+    <td>12/04/20</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>14</td>
+    <td>04/08/06</td>
+    <td>Student</td>
+    <td>12/04/20</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>14</td>
+    <td>12/16/05</td>
+    <td>Student</td>
+    <td>12/04/20</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>14</td>
+    <td>05/10/06</td>
+    <td>Student</td>
+    <td>12/04/20</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>14</td>
+    <td>12/27/05</td>
+    <td>Student</td>
+    <td>12/04/20</td>
+  </tr>
+</table>
+</div>
+  </section>
+  
+  <section id="methodology_1">
+    <div>
+      <h2>Part 1: Methodology</h2>
+      <p style="text-align: justify;">1. We did our workshop outline that will determine the timeline or the overview of our workshop. <br> 2. We conducted the questions that we will use for the usability test using the google forms. <br> 3. We did our presentation that we will use for the day of our workshop using the gslides. <br> 4. We did our registration form using the gsheets and then we searched for volunteers who wanted to attend our workshop. <br> 5. We prepared our invitation card and sent it to those people who wanted to join our workshop. <br> 6. We performed our workshop with the participants, after we perform our workshop we sent our usability test to their emails. <br> 7. We informed them to answer our usability test. <br> 8. We gathered their responses using the gsheets to make it look nice and organized.</p>
+    </div>
+  </section>
+  
+  <section id="methodology_2">
+    <div>
+  <h2>Part 2: Methodology</h2>
+  <p></p>
+  <table class="method">
+  <tr id="header-participants">
+    <th>QUANTITATIVE</th>
+    <th>QUALITATIVE</th>
+    
+  </tr>
+  <tr>
+    <td>1.  Add more activities. <br> 2. Add more explanations.<br> 3. Add more visuals. <br> 4. Add more information.</td>
+    <td>1. Try to make your audience have a conversation with you. <br> 2. Improve the flow of the speakers. <br> 3. Use your voice effectively. <br> 4. Use positive visualization.</td>
+    
+  </tr>
+</table>
+</div>
+  </section>
+  
+   <section id="findings">
+    <div>
+      <h2>Findings</h2>
+      <p style="text-align: justify;">Some of the participants were interested that’s why they joined our workshop and most of the participants enjoyed our workshop They gave us more advice on where should we improve to make our workshop better. Also, almost all of them were helped in setting their goals and to know about more goals. It helped them specify what goals they wanted to do first before they do their other goals. We learn a lot especially the things we don't know yet it helps a lot to improve ourselves and we know we have a lot to discover.</p>
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="first-content">
+          <p>We are grade 9 students from APEC Ortigas Extension, our group number is 11 and our group is composed of 4 students from 9AM2. This website is created  by the Facilitator of Group 11 (Stephen Jimenez) for the benefit of the people who wants to join our workshop. The topic of our workshop is all about goal setting. This workshop is provided for those people who want to learn more about goal setting.</p>
+          <div class="media">
+            <a href="https://www.facebook.com/itsgoalsetting/"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://mobile.twitter.com/itsgoalsetting/"><span class="fab fa-twitter"></span></a>
+            <a href="https://www.instagram.com/itsgoalsetting/"><span class="fab fa-instagram"></span></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><span class="fab fa-google"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="first-content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Metro Manila, Philippines</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">09226993939</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">goalsetting13@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="first-content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <center>
+        <span class="credit"> Created By <a href="https://www.facebook.com/stenjovillen">StephenJimenez</a> | </span>
+        <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+  
+  <embed src="https://www.youtuberepeater.com/watch?v=OVgdHYN3tfg" autostart="true" loop="true" width="2" height="0">
+  
+</body>
+</html>

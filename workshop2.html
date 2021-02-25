@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAL SETTING</title>
+
+    <!------------ GOOGLE FONTS ------------>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
+        rel="stylesheet">
+
+    <!------------ FONT AWESOME ------------>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <!------------ CUSTOM STYLE SHEET ------------>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <!------------ JAVASCRIPT ------------>
+    <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
+</head>
+
+<body>
+
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html#home">GOAL SETTING</a></div>
+      <input type="radio" name="slide" id="menu-btn">
+      <input type="radio" name="slide" id="cancel-btn">
+      <ul class="nav-links">
+        <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li>
+          <a href="#" class="desktop-item">Dropdown Menu</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="index.html#registration">REGISTRATION</a></li>
+            <li><a href="index.html#contact_us">CONTACT US</a></li>
+            <li><a href="index.html#our_team">OUR TEAM</a></li>
+            <li><a href="index.html#objectives">OUR OBJECTIVES</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Mega Menu</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="goalsetting3.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop.html#trivia_1">Trivia 1</a></li>
+                  <li><a href="workshop.html#summary">Summary</a></li>
+                  <li><a href="workshop.html#goals">goals</a></li>
+                  <li><a href="workshop.html#participants">participants</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop.html#methodology_1">Methodology 1</a></li>
+                  <li><a href="workshop.html#methodology_2">Methodology 2</a></li>
+                  <li><a href="workshop.html#findings">Findings</a></li>
+                  <li><a href="workshop2.html#trivia_2">Trivia 2</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>GOAL SETTING</header>
+                <ul class="mega-links">
+                  <li><a href="workshop2.html#goal_setting">Goal Setting</a></li>
+                  <li><a href="workshop2.html#purpose">Purpose</a></li>
+                  <li><a href="workshop2.html#goal">Goal</a></li>
+                  <li><a href="workshop2.html#smart_criteria">Smart Criteria</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#feedback">Feedback</a></li>
+        <li><a href="promotional.html">Promotion</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  
+    <div class="slider" id="home">
+        <div class="slides">
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>GOAL SETTING</h1>
+                    <p>A BRIGHTER FUTURE AHEAD OF US</p>
+                    <li><a href="index.html#about">LEARN MORE</a></li>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>USABILITY TESTING REPORT</h1>
+                    <p>TO KNOW MORE ABOUT THE RESULT OF OUR WORKSHOP</p>
+                    <li><a href="workshop.html#trivia_1">LEARN MORE</a></li>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-data">
+                    <h1>WORKSHOP</h1>
+                    <p>THIS WORKSHOP IS FOR PEOPLE WHO WANT TO LEARN AND ENHANCE THEIR ABILITIES TO SET THEIR GOALS</p>
+                    <li><a href="workshop2.html#trivia_2">LEARN MORE</a></li>
+                </div>
+            </div>
+        </div>
+
+        <button class="arrows prev" onclick="plusslide(-1)">
+            <span><i class="fas fa-angle-left"></i></span>
+        </button>
+        <button class="arrows next" onclick="plusslide(1)">
+            <span><i class="fas fa-angle-right"></i></span>
+        </button>
+
+        <div class="dots">
+          <center>
+            <span onclick="currentslide(1)"></span>
+            <span onclick="currentslide(2)"></span>
+            <span onclick="currentslide(3)"></span>
+          </center>
+        </div>
+    </div>
+    
+  <script src="script.js"></script>
+    
+  <section id="trivia_2">
+    <div>
+      <h2>GOAL</h2>
+      <p style="text-align: justify;">A goal is an aim or objective that you work toward with effort and determination. Real-life examples: People have many different kinds of goals. These include career goals, relationship goals, life goals, and educational goals. You might have a specific goal of learning how to play the guitar or saving up enough money to travel to another country.</p>
+        <a href="https://www.dictionary.com/browse/goal#:~:text=A%20goal%20is%20an%20aim%20or%20objective%20that,up%20enough%20money%20to%20travel%20to%20another%20country.">Read More</a>
+    </div>
+    <img src="img.jpg">
+  </section>
+  
+  <section id="goal_setting">
+    <div>
+      <h2>GOAL SETTING</h2>
+      <p style="text-align: justify;">Goal setting involves the development of an action plan designed to motive and guide a person or group of people towards a goal. Goal setting can be guided by goal-setting criteria (or rules) like the "SMART" criteria. Goal setting is a major component of personal-development and management.</p>
+    </div>
+  </section>
+  
+  <section id="purpose">
+    <div>
+      <h2>PURPOSE OF GOAL SETTING</h2>
+      <p style="text-align: justify;">Goal setting gives you a long-term vision and short-term motivation. It focuses on your acquisition of knowledge and helps you to organize your time and your resources so that you can make the most of your life. Goal setting helps trigger new behaviors, guides your focus, and helps you sustain that momentum in life. It also helps align your focus and promote a sense of self-mastery and regulation.</p>
+    </div>
+  </section>
+  
+   <section id="goal">
+    <div>
+      <h2>goal</h2>
+      <p style="text-align: justify;">A goal is an idea of the future desired result that a person or group of people envision, plan, and commit to achieving. People endeavor to reach goals within a certain period of time by setting deadlines but sometimes it depends on the goal that you have in mind. For example; I want to become a teacher someday, of course, it wouldn't be easy to achieve because it takes a lot of time to become a teacher, however by doing small things like studying hard you can achieve it step by step.</p>
+    </div>
+  </section>
+  
+   <section id="smart_criteria">
+    <div>
+      <h2>SMART CRITERIA</h2>
+      <p style="text-align: justify;">SMART (criteria) is an acronym that stands for specific, measurable, attainable or achievable, relevant or realistic, and time-bound or timely. Therefore, if you want to know if a goal is smart then you have to identify whether these characteristics are present to that specific goal. A smart goal helps you to maintain your focus and give your efforts to the fullest.</p>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h2>About us</h2>
+        <div class="first-content">
+          <p>We are grade 9 students from APEC Ortigas Extension, our group number is 11 and this group is composed of 4 students from 9AM2. This website is created  by the Facilitator of Group 11 (Stephen Jimenez) for the benefit of the people who wants to join our workshop. The topic of our workshop is all about goal setting. This workshop is provided for those people who want to learn more about goal setting.</p>
+          <div class="media">
+            <a href="https://www.facebook.com/itsgoalsetting/"><span class="fab fa-facebook-f"></span></a>
+            <a href="https://mobile.twitter.com/itsgoalsetting/"><span class="fab fa-twitter"></span></a>
+            <a href="https://www.instagram.com/itsgoalsetting/"><span class="fab fa-instagram"></span></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><span class="fab fa-google"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="center box">
+        <h2>Address</h2>
+        <div class="first-content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Metro Manila, Philippines</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">09226993939</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">goalsetting13@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right box">
+        <h2>Contact us</h2>
+        <div class="first-content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            
+            <div class="btn">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="bottom">
+      <center>
+        <span class="credit"> Created By <a href="https://www.facebook.com/stenjovillen">StephenJimenez</a> | </span>
+        <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+      </center>
+    </div>
+  </footer>
+  
+  <embed src="https://www.youtuberepeater.com/watch?v=OVgdHYN3tfg" autostart="true" loop="true" width="2" height="0">
+  
+</body>
+</html>
